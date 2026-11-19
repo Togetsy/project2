@@ -1,0 +1,33 @@
+@startuml
+hide methods
+hide stereotypes
+
+entity SPECIES {
+  * id : INTEGER <<PK>>
+  --
+  * name : TEXT <<UNIQUE>>
+}
+
+entity OWNERS {
+  * id : INTEGER <<PK>>
+  --
+  * name : TEXT
+  * address : TEXT
+  * phone : TEXT
+  email : TEXT
+}
+
+entity ANIMALS {
+  * id : INTEGER <<PK>>
+  --
+  * name : TEXT
+  * species_id : INTEGER <<FK>>
+  * sex : TEXT
+  age : INTEGER
+  * status : TEXT
+  owner_id : INTEGER <<FK>>
+}
+
+SPECIES ||--o{ ANIMALS : "1:N"
+OWNERS ||--o{ ANIMALS : "1:N"
+@enduml

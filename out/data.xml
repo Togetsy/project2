@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animals>
+    <animal>
+        <id>1</id>
+        <name>Пудж</name>
+        <species>Кошка</species>
+        <sex>М</sex>
+        <age>12</age>
+        <status>на лечении</status>
+        <owner />
+    </animal>
+    <animal>
+        <id>2</id>
+        <name>Самурай</name>
+        <species>Кошка</species>
+        <sex>М</sex>
+        <age>4</age>
+        <status>ищет владельца</status>
+        <owner>
+            <name>Лошакова Мария Владиславовна</name>
+            <address>Куйбышева 7</address>
+            <phone>+79026807558</phone>
+            <email />
+        </owner>
+    </animal>
+    <animal>
+        <id>3</id>
+        <name>Парабола</name>
+        <species>Собака</species>
+        <sex>Ж</sex>
+        <age>3</age>
+        <status>пристроен</status>
+        <owner>
+            <name>Петров Иван Петрович</name>
+            <address>Казанское шоссе 12б</address>
+            <phone>+88003332605</phone>
+            <email />
+        </owner>
+    </animal>
+    <animal>
+        <id>4</id>
+        <name>Огузок</name>
+        <species>Собака</species>
+        <sex>М</sex>
+        <age>7</age>
+        <status>ищет владельца</status>
+        <owner />
+    </animal>
+    <animal>
+        <id>5</id>
+        <name>Бобик</name>
+        <species>Собака</species>
+        <sex>Ж</sex>
+        <age>11</age>
+        <status>ищет владельца</status>
+        <owner />
+    </animal>
+    <animal>
+        <id>6</id>
+        <name>Ермолай</name>
+        <species>Кошка</species>
+        <sex>М</sex>
+        <age>4</age>
+        <status>пристроен</status>
+        <owner>
+            <name>Жданов Сергей Андреевич</name>
+            <address>Духова 8</address>
+            <phone>+79103800789</phone>
+            <email />
+        </owner>
+    </animal>
+</animals>
